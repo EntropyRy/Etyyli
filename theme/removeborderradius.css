@@ -1,0 +1,6 @@
+#wrap, .headerbar, .navbar, .forabg, .forumbg, .panel, .post {
+    border-radius: 0px;
+}
+.dropdown, div.rules {
+    border-radius: 0px;
+}
