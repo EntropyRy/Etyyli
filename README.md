@@ -1,2 +1,3 @@
 # Etyyli
-Entropy Ry phpBB styles
+Entropy Ry phpBB 3.1 styles
+

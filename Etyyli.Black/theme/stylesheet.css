@@ -1,0 +1,30 @@
+
+@import url("../../Etyyli.White/theme/stylesheet.css");
+
+/* Omat on säädöt tässä joo */
+
+html{
+    background: #000000 url("./images/bg_stripe_black.png") repeat;
+	-webkit-filter: invert(100%) hue-rotate(180deg) saturate(50%) sepia(10%); 
+	-moz-filter: invert(100%) hue-rotate(180deg) saturate(50%) sepia(10%);
+  	-ms-filter: invert(100%) hue-rotate(180deg) saturate(50%) sepia(10%);
+  	filter: invert(100%) hue-rotate(180deg) saturate(50%) sepia(10%);
+}
+img {
+	-webkit-filter: invert(100%) hue-rotate(-180deg) saturate(100%) sepia(0%);
+	-moz-filter: invert(100%) hue-rotate(-180deg) saturate(100%) sepia(0%); 
+  	-ms-filter: invert(100%) hue-rotate(-180deg) saturate(100%) sepia(0%);
+  	filter: invert(100%) hue-rotate(-180deg) saturate(100%) sepia(0%);
+}
+img#mChatLoadIMG {
+	-webkit-filter: invert(20%) hue-rotate(180deg) saturate(50%) sepia(0%);
+	-moz-filter:  invert(20%) hue-rotate(180deg) saturate(50%) sepia(0%); 
+  	-ms-filter:  invert(20%) hue-rotate(180deg) saturate(50%) sepia(0%);
+  	filter:  invert(20%) hue-rotate(180deg) saturate(50%) sepia(0%);
+}
+#logo {
+	-webkit-filter: invert(100%);
+	-moz-filter:  invert(100%); 
+  	-ms-filter:  invert(100%);
+  	filter:  invert(100%);
+}
