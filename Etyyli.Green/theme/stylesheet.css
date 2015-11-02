@@ -3,8 +3,12 @@
 
 /* Omat on säädöt tässä joo */
 
+body{
+    background: none;
+}
+
 html{
-    background: #000000 url("./images/bg_stripe_green.png") repeat;
+    background: #000000 url("./images/bg_stripe_green.png") repeat !important;
 	-webkit-filter: hue-rotate(250deg) saturate(120%); 
 	-moz-filter: hue-rotate(250deg) saturate(120%); 
   	-ms-filter: hue-rotate(250deg) saturate(120%);
@@ -23,5 +27,5 @@ img#mChatLoadIMG {
   	filter:  hue-rotate(250deg) saturate(50%) sepia(0%);
 }
 #wrap {
-    background: #aaaaff;
+    background: #ddddff;
 }

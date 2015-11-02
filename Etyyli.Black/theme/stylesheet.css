@@ -2,9 +2,12 @@
 @import url("../../Etyyli.White/theme/stylesheet.css");
 
 /* Omat on säädöt tässä joo */
+body{
+    background: none;
+}
 
 html{
-    background: #000000 url("./images/bg_stripe_black.png") repeat;
+    background: #000000 url("./images/bg_stripe_black.png") repeat !important;
 	-webkit-filter: invert(100%) hue-rotate(180deg) saturate(50%) sepia(10%); 
 	-moz-filter: invert(100%) hue-rotate(180deg) saturate(50%) sepia(10%);
   	-ms-filter: invert(100%) hue-rotate(180deg) saturate(50%) sepia(10%);
