@@ -1,0 +1,31 @@
+
+@import url("../../Etyyli.White/theme/stylesheet.css");
+
+/* Omat on säädöt tässä joo */
+
+body{
+    background: none;
+}
+
+html{
+    background: #000000 url("./images/bg_stripe_red.png") repeat !important;
+	-webkit-filter: hue-rotate(165deg) saturate(120%); 
+	-moz-filter: hue-rotate(165deg) saturate(120%); 
+  	-ms-filter: hue-rotate(165deg) saturate(120%);
+  	filter: hue-rotate(165deg) saturate(120%);
+}
+img {
+	-webkit-filter: hue-rotate(-165deg) saturate(100%);
+	-moz-filter: hue-rotate(-165deg) saturate(100%);
+  	-ms-filter: hue-rotate(-165deg) saturate(100%);
+  	filter: hue-rotate(-165deg) saturate(100%);
+}
+img#mChatLoadIMG {
+	-webkit-filter: hue-rotate(165deg) saturate(50%) sepia(0%);
+	-moz-filter: hue-rotate(165deg) saturate(50%) sepia(0%); 
+  	-ms-filter:  hue-rotate(165deg) saturate(50%) sepia(0%);
+  	filter:  hue-rotate(165deg) saturate(50%) sepia(0%);
+}
+#wrap {
+    background: #39A;
+}
