@@ -783,21 +783,21 @@ Colours and backgrounds for buttons.css
 .sticky_unread_locked_mine										{ background-image: url("./images/sticky_unread_locked_mine.gif"); }
 
 .topic_moved													{ background-image: url("./images/topic_moved.gif"); }
-.topic_read														{ background-image: url("./images/topic_read.gif"); }
-.topic_read_mine												{ background-image: url("./images/topic_read_mine.gif"); }
-.topic_read_hot													{ background-image: url("./images/topic_read_hot.gif"); }
-.topic_read_hot_mine											{ background-image: url("./images/topic_read_hot_mine.gif"); }
+.topic_read														{ background-image: url("./images/read.png"); }
+.topic_read_mine												{ background-image: url("./images/read.png"); }
+.topic_read_hot													{ background-image: url("./images/read.png"); }
+.topic_read_hot_mine											{ background-image: url("./images/read.png"); }
 .topic_read_locked												{ background-image: url("./images/topic_read_locked.gif"); }
 .topic_read_locked_mine											{ background-image: url("./images/topic_read_locked_mine.gif"); }
-.topic_unread													{ background-image: url("./images/topic_unread.gif"); }
-.topic_unread_mine												{ background-image: url("./images/topic_unread_mine.gif"); }
-.topic_unread_hot												{ background-image: url("./images/topic_unread_hot.gif"); }
-.topic_unread_hot_mine											{ background-image: url("./images/topic_unread_hot_mine.gif"); }
+.topic_unread													{ background-image: url("./images/unread.png"); }
+.topic_unread_mine												{ background-image: url("./images/unread.png"); }
+.topic_unread_hot												{ background-image: url("./images/unread.png"); }
+.topic_unread_hot_mine											{ background-image: url("./images/unread.png"); }
 .topic_unread_locked											{ background-image: url("./images/topic_unread_locked.gif"); }
 .topic_unread_locked_mine										{ background-image: url("./images/topic_unread_locked_mine.gif"); }
 
-.pm_read														{ background-image: url("./images/topic_read.gif"); }
-.pm_unread														{ background-image: url("./images/topic_unread.gif"); }
+.pm_read														{ background-image: url("./images/read.png"); }
+.pm_unread														{ background-image: url("./images/unread.png"); }
 
 /*
 --------------------------------------------------------------

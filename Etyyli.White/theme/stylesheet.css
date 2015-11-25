@@ -17,4 +17,65 @@
 @import url("imageset.css");
 @import url("removeborderradius.css");
 
-/* Harrin omat on säädöt tässä joo */
+/* Harrin omat on säädöt tässä joo 
+   Nää tarviis animaatioo?
+.topic_unread                                                   
+.topic_unread_mine                                              
+.topic_unread_hot                                               
+.topic_unread_hot_mine                                         
+.topic_unread_locked                                           
+.topic_unread_locked_mine  
+*/
+@keyframes pulse {
+    0%   {background-size: 30px 28px; background-position: 10px;}
+    25% {background-size: 28px 28px; background-position: 11px;}
+    50% {background-size: 30px 28px; background-position: 10px;}
+    75% {background-size: 35px 28px; background-position: 7.5px;}
+    100% {background-size: 30px 28px; background-position: 10px;} 
+}
+.topic_unread_hot {
+    background-size initial;
+    background-origin: content-box;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.topic_unread_hot_mine {
+    background-size initial;
+    background-origin: content-box;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/*
+.topic_read_hot {
+    background-size initial;
+    background-origin: content-box;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.topic_read_hot_mine {
+    background-size initial;
+    background-origin: content-box;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.forum_unread{
+    position: relative;
+}
+.forum_unread:before {
+    content: "";
+    background: url(./images/unread.png) no-repeat;
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 28px;
+    top: 50%;
+    left: 10px;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+} */
