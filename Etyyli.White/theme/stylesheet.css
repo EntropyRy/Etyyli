@@ -28,26 +28,48 @@
 */
 @keyframes pulse {
     0%   {background-size: 30px 28px; background-position: 10px;}
-    25% {background-size: 28px 28px; background-position: 11px;}
+    25% {background-size: 27px 28px; background-position: 11.5px;}
     50% {background-size: 30px 28px; background-position: 10px;}
     75% {background-size: 35px 28px; background-position: 7.5px;}
     100% {background-size: 30px 28px; background-position: 10px;} 
 }
+@keyframes roll {
+    0%   {background-position: 10px -40px;}
+    25%   {background-position: 10px 10px;}
+    75%   {background-position: 10px 10px;}
+    100%   {background-position: 10px 80px;}
+}
 .topic_unread_hot {
+    background-repeat: repeat-y;
     background-size initial;
     background-origin: content-box;
-    animation-name: pulse;
-    animation-duration: 4s;
+    animation-name: roll;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 .topic_unread_hot_mine {
-    background-size initial;
+    background-repeat: repeat-y;
+    background-size roll;
     background-origin: content-box;
-    animation-name: pulse;
-    animation-duration: 4s;
+    animation-name: roll;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
+.topic_read_hot {
+    background-size initial;
+    background-origin: content-box;
+    animation-name: roll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.topic_read_hot_mine {
+    background-size initial;
+    background-origin: content-box;
+    animation-name: roll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 /*
 .topic_read_hot {
     background-size initial;
