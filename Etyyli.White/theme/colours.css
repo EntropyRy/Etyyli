@@ -331,16 +331,6 @@ dl.faq dt {
 /* BB Code styles
 ----------------------------------------*/
 /* Quote block */
-blockquote {
-	background-color: #EBEADD;
-	background-image: url("./images/quote.gif");
-	border-color:#DBDBCE;
-}
-
-.rtl blockquote {
-	background-image: url("./images/quote_rtl.gif");
-}
-
 blockquote blockquote {
 	/* Nested quotes */
 	background-color:#EFEED9;
